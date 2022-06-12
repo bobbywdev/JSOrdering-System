@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/* CSS Document for adaptive site example  DA 131b */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, #side, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, #side, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* end of Eric's Reset styles */
+
+
+
+
+body {
+    
+    background-image: url(images/backg2.jpg);
+    background-size: cover;
+    display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	margin: 0;
+    position:relative;
+	background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+
+ul {
+    
+    grid-row: 1/7;
+    grid-column: 1/4;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+ul li {
+
+    background-color: beige;
+    color:#312019;
+    font-size:2.5em;
+    height: 4em;
+    border: 4px solid black;
+    border-radius:.3em;
+    padding-left: .2em;
+    padding-top: .2em;
+}
+
+#chit {
+    background-color: beige;
+    color:#312019;
+    font-size:2em;
+    grid-row:1/6;
+    grid-column:11/13;
+    list-style:none;
+    opacity: .9;
+    border: 4px solid black;
+    margin-top: .5em;
+    border-radius:.3em;
+    padding-left: .2em;
+    padding-top: .2em;
+    margin-bottom: .2em;
+    padding-right: .2em;
+}
+
+
+
+
+#bill {
+    background-color: #312019;
+    color:#ecdfc7;
+    font-size:1.75em;
+    grid-row: 6/7;
+    grid-column:11/13;
+    list-style:none;
+    opacity: .9;
+    border: 4px solid black;
+    margin-bottom:.2em;
+    border-radius:.3em;
+    padding-left: .2em;
+    padding-top: .2em;
+    padding-right: .2em;
+    font-size:1.3em;
+}
+
+button {
+
+    border-radius:.5em;
+    background-color:beige;
+    height: 3em;
+    width: 5em;
+    border: 4px solid orange;
+    
+}
+
+ul li p {
+
+    font-size: .5em;
+    padding-top: .3em;
+}
+
+#chit li {
+
+    background-color:black;
+    color: beige;
+    padding: .2em;
+    font-size: .7em;
+}
+
+#bill li {
+
+    background-color:black;
+    font-size: .7em;
+    line-height: 1.2em;
+}
+
+
+#tipbtn{
+    
+    height:2em;
+    display: flex;
+    justify-content: center;
+}
+
+chit
