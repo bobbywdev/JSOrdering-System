@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Ordering System</title>
+   
+	
+	<link rel="stylesheet" media="print" type="text/css" href="print.css" />
+	<link type="text/css" rel="stylesheet" media="screen" href="style.css" />
+	<script src= "script.js" async></script>
+</head>
+    
+<body>
+
+
+
+
+<ul>
+    <li>Burger<p>Classic beef burger - staff favorite</p><p><button onclick= "addBurger()">Add</button></p></li>
+    <li>Beer<p>Ales, Lagers, Stouts</p><p><button onclick= "addBeer()">Add</button></p></li>
+    <li>Fries<p>A perfect side for your burger</p><p><button onclick= "addFries()">Add</button></p></li>
+    <li>Salad<p>Mostly green</p><p><button onclick= "addSalad()">Add</button></p></li>
+    <li>Soup<p>Ask your server for the soup of the day</p><p><button onclick= "addSoup()">Add</button></p></li>
+</ul>
+
+<div id="chit">
+Order
+<button id= "order" onclick= "sendOrder()">Send</button>
+</div>
+
+
+<div id="bill">
+Your total is:<button id="tipbtn" onclick= "sendTip()">Tip</button>
+</div>
+
+
+
+
+</body>
+
+
+<!-- App is an ordering/billing system
+Menu items on left in boxes, buttons below used to add items to order.
+Order section shows order and price, when order complete click send button
+to send copy of chit to kitchen and display total plus tax in total section.
+Click tip button to have alert asking what percent to tip, tip and total created in
+total section(bottom right), thank alert with total due pops up, asks customer to tap card -->
+
+
+
+</html>
